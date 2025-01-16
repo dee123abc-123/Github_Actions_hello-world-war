@@ -12,7 +12,7 @@
     <repository>
         <id>my-github-actions</id>
         <name>my-github-actions-libs-release</name>
-        <url>http://3.110.43.187:8081/artifactory/hello_world_war_git-libs-release</url>
+        <url>http://13.233.132.205:8081/artifactory/github-hello-world-libs-release</url>
     </repository>
 </distributionManagement>
     <dependencies>
@@ -79,7 +79,7 @@
         </plugins>
     </build>
     <properties>
-      <sonar.organization>shrikantashetty</sonar.organization>
+      <sonar.organization>dee123abc-123</sonar.organization>
       <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 </project>
