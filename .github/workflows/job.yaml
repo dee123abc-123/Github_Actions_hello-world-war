@@ -44,7 +44,7 @@ jobs:
     runs-on: [self-hosted, staging]  # Self-hosted EC2 with Tomcat installed (Staging)
     needs: build_and_test
     if: ${{ needs.build_and_test.result == 'success' }}  # Run only if build and test succeed
-     steps:
+    steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
